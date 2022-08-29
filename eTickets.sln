@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTickets", "eTickets\eTickets.csproj", "{2EB5AD75-D4E6-4388-952D-E70ACA1C12B7}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "myETickets", "myETickets\myETickets.fsproj", "{6398E0B8-1777-41F0-BE30-BF41EA100F5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2EB5AD75-D4E6-4388-952D-E70ACA1C12B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2EB5AD75-D4E6-4388-952D-E70ACA1C12B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2EB5AD75-D4E6-4388-952D-E70ACA1C12B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2EB5AD75-D4E6-4388-952D-E70ACA1C12B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6398E0B8-1777-41F0-BE30-BF41EA100F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6398E0B8-1777-41F0-BE30-BF41EA100F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6398E0B8-1777-41F0-BE30-BF41EA100F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6398E0B8-1777-41F0-BE30-BF41EA100F5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
