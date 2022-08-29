@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "myETickets", "myETickets\myETickets.fsproj", "{6398E0B8-1777-41F0-BE30-BF41EA100F5C}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "eTickets", "myETickets\eTickets.fsproj", "{6398E0B8-1777-41F0-BE30-BF41EA100F5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
