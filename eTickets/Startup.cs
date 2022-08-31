@@ -1,4 +1,5 @@
 ﻿using eTickets.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace eTickets
 {
@@ -15,7 +16,7 @@ namespace eTickets
         public void ConfigurationServices(IServiceCollection services)
         {
             // DbContext configuration
-            services.AddDbContext<AppDbContext>();
+            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
 
             services.AddRazorPages();
             services.AddControllersWithViews();
@@ -36,6 +37,11 @@ namespace eTickets
                name: "default",
                pattern: "{controller=Home}/{action=Index}/{id?}");
             app.MapRazorPages();
+
+            // Seed database
+            AppDbInitializer.Seed(app);
+
+
             app.Run();
         }
 
